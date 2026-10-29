@@ -2,7 +2,7 @@ import { PlusCircleIcon } from "lucide-react"
 
 function Header (){
    return (
-      <header className="flex  justify-between px-4 py-4 shadow-lg shadow-blue-950 bg-white rounded-lg"> 
+      <header className="flex  justify-between px-4 py-4 shadow-lg shadow-blue-950 bg-white "> 
          <h1 className="text-3xl font-bold text-blue-950">
             Clickup do Paraguay
          </h1>

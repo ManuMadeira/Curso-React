@@ -1,12 +1,10 @@
 export type Status = 'todo' | 'doing' | 'done' 
-export type priority = 'low' | 'medium' | 'high'
+export type Priority = 'low' | 'medium' | 'high'
 
-export interface demanda {
+export interface Demand {
     id: number
     title: string
-    usuario: string
-    data: Date
-    description: string
+    client: string
+    priority: Priority
     status: Status
-    priority: priority
 }
